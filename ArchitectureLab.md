@@ -47,3 +47,6 @@ Okay! SO...we now should have everything we need to begin. Let's get started on 
 
 ## Scenario ONE: The Regular Inventory Report
 
+Congratulations! You've gotten a contract with a large, fashionable clothing company! The system you've been asked to set up is as follows:
+
+* There is an inventory report that will be produced by the inventory management software twice a day
