@@ -61,7 +61,7 @@ As you can see this is easy to output in numerous formats (png, jpeg, svg) meani
 Okay! SO...we now should have everything we need to begin. Let's get started on our architecture diagram!
 
 
-## Scenario ONE: HIGH FASHION
+### Scenario ONE: HIGH FASHION
 
 ![highfashion](./images/highfashion.jpg)
 
@@ -89,6 +89,15 @@ You will need some code to authenticate with the SFTP server (you don't have to 
 
 * Please be ready to talk through and answer questions and ASK questions of your client (me) about the architecture
 
+### Scenario TWO: CONSUMING API STREAMING DATA
 
+![businessman](./images/businessman.jpg)
+
+After a successful completion of your time in the world of high fashion you have opted to take on a contract with a high end financial firm on Wall Street! Your job requirements are as follows: the company wants to contract you to create a data pipeline that will open up a web socket connection with a stream feeding the constantly changing stock prices of different stocks on the DOW and NASDAQ. Your job is to ingest the data from this stream, do some basic transformations that look at the previous three entries that came in through the stream to determine if the price is going up or down, archive the intial data, and push it out to a SQL database that data scientists will use to do further analysis. 
+The data must be in near real time and as fast moving as possible. 
+You will be expected to do some basic but intense data science on fast moving data and get it into the SQL system for further use. 
+Please present your plan and talk through the **velocity**, **replayability** and **resilience** that you require to complete this task.
+
+### Scenario THREE: Presenting SECURITY DATA VIA AN API
 
 
