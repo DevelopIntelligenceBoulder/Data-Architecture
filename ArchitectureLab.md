@@ -12,11 +12,11 @@ We will then create our own pipelines using a pretty common (and conventiently e
 
 So if you could- please click on the link above. You should come to this screen. Choose "Create New Diagram":
 
-[diagrams](./images/homepage.png)
+![diagrams](./images/homepage.png)
 
 Choose "Cloud" from the left hand choices and then the third choice over on the images:
 
-[thirdimage](./images/thirdimage.png)
+![thirdimage](./images/thirdimage.png)
 
 Click on "Create". 
 It will ask if you want to use "root folder". 
@@ -26,7 +26,7 @@ They can be moved at any time. I usually just default to this one but if you can
 
 This will bring up a pretty commonly used template for creating cloud architectures. Take a quick look at this and note the flow of data through this system:
 
-[initialimage](./images/initialimage.png)
+![initialimage](./images/initialimage.png)
 
 Do you see where the data starts and ends? How it flows through each portion and ultimately ends in an S3 bucket? 
 
@@ -38,7 +38,7 @@ The light outlines that you are seeing there represent the VPCs (Virtual Private
 
 The next thing we're going to need to do is make sure that we have aws icons available! In the bottom left corner of the draw.io app please click on "MORE SHAPES" and choose "AWS19" from the list that appears
 
-[aws19](./images/aws19.png)
+![aws19](./images/aws19.png)
 
 These will provide you with a vast array of different AWS icons that you can easily add to your architecture drawing. Just to practice this- type "Lambda" into the shapes search bar. You should see a lambda icon appear there. Double click it to add it to the diagram (then delete it please).
 
