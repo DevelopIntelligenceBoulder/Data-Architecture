@@ -49,4 +49,16 @@ Okay! SO...we now should have everything we need to begin. Let's get started on 
 
 Congratulations! You've gotten a contract with a large, fashionable clothing company! The system you've been asked to set up is as follows:
 
-* There is an inventory report that will be produced by the inventory management software twice a day
+* There is an inventory report that will be produced by the inventory management software twice a day. This report will be in a .xlsx format. 
+
+* The report will come in at 0600 and 1800 daily
+
+* The report will need to be transformed to a csv format en route and then
+
+* Placed into a Postgres (REDSHIFT) SQL database
+
+This should all be done in a serverless methodology with event driven architecture used after the initial "get" from the SFTP server
+
+You will need to archive the file daily in both the xlsx and csv formats in case you need to rerun everything.
+
+Please submit a link with your drawing via chat
