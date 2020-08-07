@@ -98,6 +98,25 @@ The data must be in near real time and as fast moving as possible.
 You will be expected to do some basic but intense data science on fast moving data and get it into the SQL system for further use. 
 Please present your plan and talk through the **velocity**, **replayability** and **resilience** that you require to complete this task.
 
-### Scenario THREE: Presenting SECURITY DATA VIA AN API
+### Scenario THREE: Presenting SECURITY DATA
+
+![securityguy](./images/securityguy.jpeg)
+
+Following a dazzlingly successful run with setting up the back end architecture of your financial firm you have opted to take a contract with a well known cybersecurity firm based out of Nome, Alaska (apparently you like the cold in this scenario).
+The firm's product is an agent that is placed on corporate computers that transmits system data to your internal system. Your job is to receive this data and study it, checking specific keys in the key/data store system against known threat websites in near real time.
+You need a pipeline to put this data into a back end database system for further data pattern analysis as well as alert in near real time if there is an agent that has transmitted data indicating a known threat.
+BUT- your data scientist has come to you and insisted that she doesn't want structured data- she wants to read everything off of a data lake in JSON format so that she can structure the data to her preference in order to search for pattern analysis. 
+Your job is to put together a drawing that displays how this can be done **including outlining the cloud network that you will use to protect this very secret data**. You will need a way to receive the data, transform it AND check it mid stream and then put it into a data lake with options to set up various databases off of that. 
+There WILL be further back end data science processing going on afterwards but resiliency of the data is the only thing that will allow the various system algorithms to detect future threats.
+
+### Scenario FOUR: Finding true love
+
+![reccommend](./images/reccomend.jpeg)
+
+After your successful run of securing all of Nome, Alaska against the evils of corporate espionage you travel to Laramie, Wyoming (the most romantic city on the planet) where you have been hired on to aid in the completion of a brand new dating app with a twist! See...what this dating app actually does is grab information from all of the users' social media accounts, runs some Natural Language Processing data science on their posts to get some personality traits (political affiliations, interests, etc), and then goes out and finds the perfect match WITHIN THEIR LOCAL AREA.
+Think Tinder but on steroids.
+YOU have been hired to architect out a basic data flow that needs to take into account MULTIPLE data sources (every social network) PLUS do some near real time processing in order to make sure that the user and his/her "potential mate" remain in the same area.
+The data must then be moved, still in real time, through an algorithm that will do some heavy tranformations and end in a block store file system that the company will attach to various virtual machines.
+
 
 
