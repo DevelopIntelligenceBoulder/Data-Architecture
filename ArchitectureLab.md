@@ -111,7 +111,7 @@ There WILL be further back end data science processing going on afterwards but r
 
 ### Scenario FOUR: Finding true love
 
-![reccommend](./images/reccomend.jpeg)
+![reccommend](./images/truelove.jpeg)
 
 After your successful run of securing all of Nome, Alaska against the evils of corporate espionage you travel to Laramie, Wyoming (the most romantic city on the planet) where you have been hired on to aid in the completion of a brand new dating app with a twist! See...what this dating app actually does is grab information from all of the users' social media accounts, runs some Natural Language Processing data science on their posts to get some personality traits (political affiliations, interests, etc), and then goes out and finds the perfect match WITHIN THEIR LOCAL AREA.
 Think Tinder but on steroids.
